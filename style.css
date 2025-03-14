@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  font-family: "Open Sans", sans-serif;
+  max-width: 400px;
+  text-align: center;
+}
+#main-logo {
+  background-color: black;
+}
+header img {
+  width: 10em;
+}
+#first-block {
+  background-image: url(images/banner.jpg);
+  background-size: contain;
+  padding: 10%;
+}
+#first-block h1 {
+  font-size: 40px;
+  margin-bottom: 15px;
+  padding: 5%;
+  font-weight: 700;
+  color: rgb(39, 163, 203);
+  font-family: "Montserrat", sans-serif;
+}
+#first-block p {
+  margin-bottom: 1.5em;
+}
+#first-block button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  background-color: #f04c2f;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  padding: 5%;
+}
+.nav-block {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.body-titles {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  margin-bottom: 0.7em;
+  margin-top: 1em;
+  color: rgb(39, 163, 203);
+  padding: 2%;
+}
+.body-text {
+  line-height: 1.5;
+  padding: 3%;
+}
+#notebook {
+  border-radius: 50%;
+  max-width: 280px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+#epicode-grants {
+  background-color: #f04c2f;
+  margin-top: 1em;
+  color: white;
+  padding: 5%;
+}
+#middle-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+#your-life {
+  font-style: italic;
+  line-height: 1.5;
+  padding: 5%;
+}
+#ceo {
+  font-size: small;
+  margin-top: 7px;
+}
+.photo-blocks {
+  width: 90%;
+  border: 2px solid rgb(230, 230, 239);
+  margin-top: 50px;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+.photo-blocks img {
+  margin-bottom: 20px;
+  max-width: 100%;
+}
+footer {
+  padding-bottom: 3em;
+  background-color: rgb(39, 163, 203);
+  color: white;
+}
+
+footer p {
+  margin-bottom: 7px;
+}
+footer a {
+  color: white;
+}
+#contact-us {
+  font-size: 30px;
+  margin-bottom: 15px;
+  padding: 5%;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+footer hr {
+  max-width: 40%;
+  border: 1px white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-style: solid;
+}
